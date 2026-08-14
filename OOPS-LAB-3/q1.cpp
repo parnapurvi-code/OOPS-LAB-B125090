@@ -7,10 +7,10 @@ int main(){
     cin >> *num1;
     cout << "enter number 2: " << endl;
     cin >> *num2;
-    cout << "ADDITION: " << *num1 + *num2 << endl;
-    cout << "SUBSTRACTION: " << *num1 - *num2 << endl;
-    cout << "MULTIPLICATION: " << *num1 * *num2 << endl;
-    cout << "DIVISION: " << *num1 / *num2 << endl;
+    cout << "ADDITION: " << *num1 + *num2 << endl; //addition
+    cout << "SUBSTRACTION: " << *num1 - *num2 << endl; //substraction
+    cout << "MULTIPLICATION: " << *num1 * *num2 << endl; //multiplication
+    cout << "DIVISION: " << *num1 / *num2 << endl; //division
     delete num1;
     delete num2;
     num1 = nullptr;
