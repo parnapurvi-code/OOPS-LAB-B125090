@@ -6,6 +6,7 @@ class book{
     char author[100];
     int price;
     public:
+    // function to take input
     void input(){
         cout << "enter the ID: " << endl;
         cin >> id;
@@ -16,6 +17,7 @@ class book{
         cout << "enter the price: " << endl;
         cin >> price;
     }
+    // function to display details
     void display(){
         cout << "ID: " << id << endl;
         cout << "TITLE: " << title << endl;
