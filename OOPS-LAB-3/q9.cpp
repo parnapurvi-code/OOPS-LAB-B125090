@@ -10,6 +10,7 @@ class Employee {
     double salary;
 public:
     Employee() : id(0), name(""), salary(0.0) {}
+//creating function
     void accept() {
         cout << "Enter ID: ";
         while(!(cin >> id)){
@@ -28,6 +29,7 @@ public:
         }
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
+// function to display
     void display() const {
         cout << "ID: " << id << "\n";
         cout << "Name: " << name << "\n";
