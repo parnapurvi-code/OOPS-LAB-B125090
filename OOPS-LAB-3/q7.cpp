@@ -7,7 +7,7 @@ int main(){
     cin >> n;
     cin.ignore();
     char* str = new char[n];
-    cout << "enter the string: ";
+    cout << "enter the string: "; // string input
     cin.getline(str, n);
     int vowels = 0, consonants =0, digits =0, spaces =0;
     for(int i =0; str[i] != '\0'; i++){
@@ -29,7 +29,7 @@ int main(){
             spaces++;
         }
     }
-    cout << "vowels: " << vowels << endl;
+    cout << "vowels: " << vowels << endl; // displaying details
     cout << "consonants: " << consonants << endl;
     cout << "digits: " << digits << endl;
     cout << "spaces: " << spaces << endl;
